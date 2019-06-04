@@ -1,0 +1,7 @@
+{
+    "project_slug": "www",
+    "www_name": "{{ cookiecutter.project_slug }}",
+    "author_name": "",
+    "author_email": "",
+    "project_version": "0.1.0.dev0"
+}
