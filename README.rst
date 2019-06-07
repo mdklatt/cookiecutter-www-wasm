@@ -20,8 +20,16 @@ web site that uses `WebAssembly`_.
 Project Features
 ================
 
+.. _TypeScript: https://www.typescriptlang.org/
+.. _NPM: https://docs.npmjs.com
+.. _Nunjucks: https://mozilla.github.io/nunjucks
+.. _Rollup: https://rollupjs.org
 .. _MIT License: http://choosealicense.com/licenses/mit
 
+- `NPM`_ project management
+- `TypeScript`_ scripting language
+- `Nunjucks`_ templates
+- `Rollup`_ packaging
 - `MIT License`_
 
 

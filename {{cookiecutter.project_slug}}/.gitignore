@@ -3,9 +3,9 @@
 node_modules/
 
 
-# Ignore built static files.
+# Ignore built files.
 
-static/
+dist/
 
 # Ignore C++ build artifacts.
 

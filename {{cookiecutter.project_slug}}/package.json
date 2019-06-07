@@ -1,0 +1,26 @@
+{
+  "name": "{{ cookiecutter.www_name }}",
+  "version": "{{ cookiecutter.project_version }}",
+  "description": "Static web site template",
+  "dependencies": {},
+  "devDependencies": {
+    "fs-extra": "^8.0.1",
+    "nunjucks": "^3.2.0",
+    "nunjucks-cli": "^0.5.1",
+    "rollup": "^1.10.1",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "rollup-plugin-terser": "^4.0.4",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^1.9.3",
+    "typescript": "^3.4.3"
+  },
+  "scripts": {
+    "build:js": "tsc",
+    "build:html": "nunjucks --path src/html --out static *.njk src/html/context.json",
+    "build": "rollup --config",
+    "devel": "rollup --config --watch",
+    "test": "echo \"Warning: no test specified\" && true"
+  },
+  "author": "{{ cookiecutter.author_name }} <{{ cookiecutter.author_email }}>",
+  "license": "MIT"
+}
