@@ -2,10 +2,10 @@
 WebAssembly Web Site Project Template
 #####################################
 
-.. _travis: https://travis-ci.org/mdklatt/cookiecutter-www-wasm
-.. |badge| image:: https://travis-ci.org/mdklatt/cookiecutter-www-wasm.png
+.. _Travis CI: https://travis-ci.org/mdklatt/cookiecutter-www-wasm-cpp
+.. |badge| image:: https://travis-ci.org/mdklatt/cookiecutter-www-wasm-cpp.png
    :alt: Travis CI build status
-   :target: `travis`_
+   :target: `Travis CI`_
 
 |badge|
 
@@ -13,7 +13,7 @@ WebAssembly Web Site Project Template
 .. _WebAssembly: https://webassembly.org
 
 This is a `Cookiecutter`_ template for creating a project for a basic static
-web site that uses `WebAssembly`_.
+web site that uses C++ compiled to `WebAssembly`_.
 
 
 ================
@@ -37,7 +37,7 @@ Project Features
 Usage
 =====
 
-.. _GitHub: https://github.com/mdklatt/cookiecutter-www-wasm
+.. _GitHub: https://github.com/mdklatt/cookiecutter-www-wasm-cpp
 
 
 Install Python requirements for using the template:
@@ -51,4 +51,4 @@ Create a new project directly from the template on `GitHub`_:
 
 .. code-block:: console
 
-  $ cookiecutter gh:mdklatt/cookiecutter-www-wasm
+  $ cookiecutter gh:mdklatt/cookiecutter-www-wasm-cpp

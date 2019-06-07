@@ -1,6 +1,6 @@
 ## Travis CI configuration.
 ##
-##   <https://travis-ci.org/mdklatt/cookiecutter-www-static>
+##   <https://travis-ci.org/mdklatt/cookiecutter-www-wasm-cpp>
 ##
 language: node_js
 node_js:
