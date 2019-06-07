@@ -52,18 +52,18 @@ const render = function(options) {
 export default {
 	input: 'src/script/main.ts',
 	output: {
-		file: 'static/script/main.js',
+		file: 'dist/script/main.js',
 		format: 'esm',
 		sourcemap: true
 	},
 	plugins: [
         copy({
             src:  'src/style/',
-            dest: 'static/style/'
+            dest: 'dist/style/'
         }),
         render({
             src:  'src/html/index.html.njk',
-            dest: 'static/index.html',
+            dest: 'dist/index.html',
             context: 'src/html/context.json',
         }),
 		typescript(),

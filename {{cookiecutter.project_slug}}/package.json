@@ -16,7 +16,8 @@
   },
   "scripts": {
     "build:js": "tsc",
-    "build:html": "nunjucks --path src/html --out static *.njk src/html/context.json",
+    "build:html": "nunjucks --path src/html --out dist *.njk src/html/context.json",
+    "build:wasm": "(mkdir dist || true) && em++ src/wasm/main.cpp -s WASM=1 -o dist/wasm.html",
     "build": "rollup --config",
     "devel": "rollup --config --watch",
     "test": "echo \"Warning: no test specified\" && true"

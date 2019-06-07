@@ -3,7 +3,7 @@
     "target": "es2015",
     "module": "es2015",
     "moduleResolution": "node",
-    "outDir": "static/script",
+    "outDir": "dist/script",
     "alwaysStrict": true,
     "noImplicitAny": true,
     "removeComments": true,
@@ -11,6 +11,6 @@
     "sourceMap": true
   },
   "files": [
-    "src/main.ts"
+    "src/script/main.ts"
   ]
 }
